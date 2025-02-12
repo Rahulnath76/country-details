@@ -11,7 +11,7 @@ const CountryComp = ({ country, AllCountries }) => {
         />
       </div>
       <div className="flex items-center justify-between w-full">
-        <div>
+        <div className="w-full">
           <h1 className="text-3xl font-bold my-8">{country.name}</h1>
           <div className="text-sm flex gap-12 lg:gap-28 mb-12 justify-between md:flex-row flex-col lg:w-[75%]">
             <div className="flex flex-col gap-2">
@@ -81,7 +81,7 @@ const CountryComp = ({ country, AllCountries }) => {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-4 ">
+          <div className="flex flex-col lg:flex-row gap-4 w-full">
             <h3 className="font-bold text-gray-900 dark:text-white md:w-[200px] mt-1">
               Border Countries:
             </h3>

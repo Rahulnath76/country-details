@@ -63,7 +63,6 @@ const Main = () => {
             className="p-3 lg:pr-12 shadow-md rounded dark:bg-[#2b3945] text-[14px] focus:outline-none w-[50%] md:w-auto"
             onChange={(e) => {
               setContinent(e.target.value);
-              console.log(continent);
             }}
           >
             <option selected disabled hidden>
